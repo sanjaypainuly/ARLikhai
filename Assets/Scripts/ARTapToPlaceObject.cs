@@ -8,6 +8,7 @@ using UnityEngine.XR.ARSubsystems;
 [RequireComponent(typeof(ARRaycastManager))]
 public class ARTapToPlaceObject : MonoBehaviour
 {
+    UiOptions UiOptions;
 
     public GameObject gameObjectToInstantiate;
     private GameObject spawnObject;
